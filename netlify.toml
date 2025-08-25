@@ -4,5 +4,4 @@
 
 [[plugins]]
   package = "@netlify/angular-runtime"
-  [plugins.inputs]
-    publish = "dist/password-generator-scss/browser"
+  version = "2.4.0"
