@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist/password-generator-scss/browser"
+
+[[plugins]]
+  package = "@netlify/angular-runtime"
+  [plugins.inputs]
+    publish = "dist/password-generator-scss/browser"
