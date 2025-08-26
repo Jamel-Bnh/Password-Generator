@@ -1,7 +1,7 @@
 [build]
-  command = "ng build"
-  publish = "dist/password-generator-scss"
+command = "ng build"
+publish = "dist/password-generator"
 
 [dev]
-  command = "ng serve"
-  port = 4200
+command = "ng serve"
+port = 4200

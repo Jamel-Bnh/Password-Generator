@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "password-generator-scss": {
+    "password-generator": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "password-generator-scss:build:production"
+              "buildTarget": "password-generator:build:production"
             },
             "development": {
-              "buildTarget": "password-generator-scss:build:development"
+              "buildTarget": "password-generator:build:development"
             }
           },
           "defaultConfiguration": "development"
