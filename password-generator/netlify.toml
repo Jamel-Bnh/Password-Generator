@@ -1,6 +1,6 @@
 [build]
 command = "ng build --configuration=production"
-publish = "dist/password-generator"
+publish = "dist/password-generator/browser"
 
 [dev]
 command = "ng serve"
