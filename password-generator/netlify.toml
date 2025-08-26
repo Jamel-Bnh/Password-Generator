@@ -1,7 +1,7 @@
 [build]
-command = "ng build"
-publish = "dist/password-generator/browser"
+  command = "npm run build"
+  publish = "dist/password-generator/browser"
 
 [dev]
-command = "ng serve"
-port = 4200
+  command = "npm start"
+  port = 4200
