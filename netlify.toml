@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist/password-generator-scss/browser"
+  command = "ng build"
+  publish = "dist/password-generator-scss"
 
-[[plugins]]
-  package = "@netlify/angular-runtime"
-  version = "2.4.0"
+[dev]
+  command = "ng serve"
+  port = 4200
